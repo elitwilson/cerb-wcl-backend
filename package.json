@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "serve": "node src/index.js"
+  },
+  "name": "cerb-wcl-backend",
+  "version": "1.0.0",
+  "description": "ExpressJS backend for Cerberus Warcraftlogs Tools",
+  "main": "index.js",
+  "repository": "https://github.com/elitwilson/cerb-wcl-backend.git",
+  "author": "Eli Wilson <etwilson@med.umich.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
